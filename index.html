@@ -5,15 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../Gif-Tastic/assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../Gif-Tastic/assets/css/style.css">
-    <title>Gif-Tastic</title>
+    <title>Gif-Tastic!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../Gif-Tastic/assets/javascript/app.js"></script>
+    <header>
+        <h1>Search for Movie Gifs</h1>
+        <hr>
+    </header>
+
+    <form id="movie-form">
+
+        <label for="movie-input"> Add some movies </label>
+        <input type="text" id="movie-input">
+        <br>
+        <input id="add-movie" type="submit" value="SUBMIT!">
+        <button id="reload" onclick="location.reload();">Refresh Page</button>
+
+    </form>
+
+    <div id="movie-buttons"></div>
+
+    <div id="images">
+        <h2 style="text-align:center;">Click a button above to display Gifs here, then click the Gif to animate it.</h2>
+
+    </div>
+
+    <br>
+
+    <div class="footer">
+        <p>My name is Max Jackson and I am a web developer in the making.</p>
+        <br>
+        <a class="portfolio" href="https://maxjcoder.github.io/Basic-Portfolio/" target="_blank">Portfolio</a>
+        <br>
+        <br>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 
 </body>
 

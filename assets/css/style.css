@@ -1,0 +1,133 @@
+body{
+  background-image: url(../images/crossword.png);
+  font-size: 20px;
+  font-family: monospace;
+}
+
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+header {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+label:hover {
+font-weight: bold;
+}
+
+#movie-form {
+  float: right;
+  border: 2px solid lightgrey;
+  padding: 5px;
+  background-color: white;
+  color: grey;
+}
+
+#add-movie {
+  float:right;
+  width: 173px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 3px;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+#reload {
+  float: left;;
+  width: 115px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 3px;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+#movie-form:hover {
+  border: 3px solid lightseagreen;
+  color : lightseagreen;  
+}
+
+#movie-input {
+  font-family: monospace;
+  border : 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 160px;
+  padding : 5px;
+}
+
+#movie-input:hover {
+  border : 2px solid grey;
+  font-weight: bold;
+}
+
+#movie-buttons {
+  width: 920px;
+  float: left;
+}
+
+.movie-button {
+  font-family: monospace;
+  border : 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding : 5px;
+}
+
+.movie-button:hover {
+  border : 2px solid grey;
+  font-weight: bold;
+}
+
+#images {
+  float: left;
+  width: 925px;
+  border: 2px solid lightgrey;
+  padding: 5px;
+  align-content: center;
+  background-color: white;
+  color: grey;
+}
+
+#images:hover {
+  border: 3px solid lightseagreen;
+  color : lightseagreen; 
+}
+
+.footer {
+  float: left;
+  width: 915px;
+  border: 2px solid lightgrey;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  color:grey;
+}
+
+.portfolio{
+  background-color:white;
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: bolder;
+  color: grey;
+  padding: 10px;
+}
+.footer:hover{
+  border: 3px solid lightseagreen;
+  color : lightseagreen;
+}
+
+.portfolio:hover {
+  border: 3px solid lightseagreen;
+  color : lightseagreen;
+}
