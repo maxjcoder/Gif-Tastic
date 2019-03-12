@@ -14,8 +14,14 @@ input {
 header {
   margin-top: 5px;
   margin-bottom: 10px;
+  margin-left: 135px;
+  margin-right: 135px;
   padding: 10px;
+  border : 2px solid grey;
+  border-radius: 5px;
+  background-color: white;
   text-align: center;
+  font-size: 30px;
 }
 
 label:hover {
@@ -25,6 +31,8 @@ font-weight: bold;
 #movie-form {
   float: right;
   border: 2px solid lightgrey;
+  border-radius: 5px;
+
   padding: 5px;
   background-color: white;
   color: grey;
@@ -91,6 +99,7 @@ font-weight: bold;
   float: left;
   width: 925px;
   border: 2px solid lightgrey;
+  border-radius: 5px;
   padding: 5px;
   align-content: center;
   background-color: white;
@@ -106,6 +115,7 @@ font-weight: bold;
   float: left;
   width: 915px;
   border: 2px solid lightgrey;
+  border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 2px;
   padding: 10px;
