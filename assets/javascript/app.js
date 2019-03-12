@@ -46,7 +46,7 @@ $(document).ready(function () {
     $(this).addClass("active");
 
     var type = $(this).attr("data-type");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=4XHuLbVdGo9QJMO3fPmPWV5Cuaer3xNJ&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=4XHuLbVdGo9QJMO3fPmPWV5Cuaer3xNJ&limit=10";
 
     //Ajax call
 
