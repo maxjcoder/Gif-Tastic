@@ -3,16 +3,17 @@
 $(document).ready(function() {
 
     var movies = ["Anchorman",
-        "E.T.",
+        "Blade Runner",
         "Fargo",
         "Forrest Gump",
-        "Godfather",
         "Ghostbusters",
+        "Godfather",
         "Goonies",
         "Jaws",
         "Jurassic Park",
         "Karate Kid",
         "Star Wars",
+        "Vertigo",
     ];
 
     // function to make buttons for the page

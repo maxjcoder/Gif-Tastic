@@ -42,8 +42,8 @@ button,
 }
 
 button:hover {
-    border: 1px solid grey;
     font-weight: bold;
+    border: 1px solid grey;
 }
 
 #add-movie:hover {
@@ -52,12 +52,23 @@ button:hover {
 }
 
 .movie-item {
-    background: lightgray;
+    display: block;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
     margin: 5px;
     padding: 5px;
-    font-weight: bold;
     border: 2px solid darkgrey;
     border-radius: 5px;
+}
+
+img.movie-image {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    border: 1px solid gray;
 }
 
 .movie-item:hover {
